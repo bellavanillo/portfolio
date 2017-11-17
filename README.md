@@ -26,7 +26,7 @@ _If you run into any issues or have questions, ideas or concerns, please contact
 
 ## Technologies Used
 
-_html, css_
+_html, bootstrap, git, css_
 
 ### License
 
