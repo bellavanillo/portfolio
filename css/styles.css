@@ -1,9 +1,7 @@
 h1 {
   text-align: center;
   font-size: 100px;
-}
-.c {
-text-align: center;
+  color: darkblue;
 }
 body {
   font-family: sans-serif;
@@ -12,19 +10,21 @@ body {
   background-attachment: fixed;
 }
 img {
-  height: 50%;
-  width: 25%;
+  height: 250px;
+  width: 250px ;
   border: 3px solid teal;
-}
-.bear {
-  float: inherit;
 }
 .box {
-  margin: 12px;
   border: 3px solid teal;
   padding: 6px;
-  background-color: salmon;
+  background-color: grey;
+  float: right;
 }
-.digital {
-
+.panel-body {
+  background-image: url("../images/ocean.jpg");
+}
+@@media screen and (max-width: 768px) {
+  .box {
+    width: 400px;
+  }
 }
