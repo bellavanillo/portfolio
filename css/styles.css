@@ -23,8 +23,6 @@ img {
 .panel-body {
   background-image: url("../images/ocean.jpg");
 }
-@@media screen and (max-width: 768px) {
-  .box {
-    width: 400px;
-  }
+.important {
+  font-weight: bolder;
 }
